@@ -1,6 +1,5 @@
-public class Solution {
+class Solution {
     public static int[] printNos(int x) {
-        // Write Your Code Here
         int a[]=new int[x];
         return printArr(a,x);
     }
