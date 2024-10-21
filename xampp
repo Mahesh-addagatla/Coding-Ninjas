@@ -1,0 +1,21 @@
+STEP1:- Open xampp.To open the xampp go to terminal and typei)cd /opt/lamppii)sudo ./manager-linux-x64.run
+
+STEP2:-After opening start the apache2 server and mysql server.If any error occur like apache2 and mysql server is not staring then type in the terminal.i)sudo apachectl stopii)sudo service mysql stop
+
+STEP3:-Now open the broswer and type localhost after that you see the dashboard of the xampp.
+
+STEP4:-Now open the vs code and click add folder to workplace Here u create a folder inside the hdocs.If error occur  like permission error then go to terminal typei) sudo chmod 777 -R /opt/lampp/hdocs
+
+STEP5:-After that write a php code inside the created folder and save it
+
+STEP6:-After that search in Extensions ,type xampp you see open php/html/js in browser install it.
+
+STEP7:-Now open Extension settings of open php/html/js in browser
+
+STEP8:-NOW see the option   open-php-html-js-in-broswer:custom url to open(Also modified in:workspace )in that u see http://host/${relativeDirnameDocumentRoot}/${fileBasename}change intohttp://localhost/${relativeDirnameDocumentRoot}/${fileBasename}
+
+STEP9:-NOW see other optionopen-php-html-js-in-broswer:Document Root Folder(Also modified in:workspace )Here u should type hdocs path /opt/lampp/htdocs/
+
+STEP10:-NOW other last optionopen-php-html-js-in-broswer:Selected Broswer Folder(Also modified in:workspace )Here u should select the browserIn my case it is :firefox.
+
+STEP11:-Now go to the php file and right click u can see the option open-php-html-js-in-broswer and click it u see the output in the broswer.THANK U GUYS!!PLEASE LIKE THIS VIDEO !!!AND PLEASE SUBSCRIBE!!!IF U ANY DOUBTS PLEASE PUT IN THE COMMENTSESSIONTHANK U ONCE AGAIN !!!HAVE A GREAT DAY!!!
